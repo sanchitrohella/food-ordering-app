@@ -1,0 +1,122 @@
+.backdrop {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 999;
+  background: black;
+  opacity: 0.5;
+}
+
+.modal-container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+  max-width: 500px;
+  width: 100%;
+}
+
+.modal-container .modal-card {
+  padding: 8px 12px 12px 12px;
+  background: #fff;
+  width: 100%;
+}
+.modal-container .modal-card ul {
+  list-style: none;
+}
+
+.modal-container .modal-card ul li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #9a2a2a;
+  margin-top: 16px;
+}
+
+.info-container {
+  width: 25%;
+  margin-bottom: 12px;
+}
+.info-container h4 {
+  line-height: 21px;
+  margin-bottom: 8px;
+}
+
+.price-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.price-container p {
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 18px;
+  color: #c04000;
+}
+
+.price-container .amount-cont {
+  border: 1px solid #ccc;
+  padding: 2px 8px;
+  font-size: 12px;
+  line-height: 18px;
+  border-radius: 4px;
+}
+
+.button-cont {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 6px;
+  width: 20%;
+}
+
+.button-cont .btn {
+  width: 40%;
+  border: 1px solid #9a2a2a;
+  padding: 2px 8px;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: bold;
+  border-radius: 4px;
+  color: #9a2a2a;
+  background: #fff;
+  cursor: pointer;
+}
+.button-cont .btn:hover {
+  color: #fff;
+  background: #9a2a2a;
+}
+
+.total-cont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.modal-btn {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+.modal-btn .main-btn {
+  padding: 4px 20px;
+  font-weight: normal;
+}
+
+.modal-btn .secondary-btn {
+  background: #fff;
+  border: 1px solid #9a2a2a;
+  color: #9a2a2a;
+  padding: 2px 18px;
+}
+.modal-btn .secondary-btn:hover {
+  color: #fff;
+  background: #9a2a2a;
+}

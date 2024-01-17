@@ -1,0 +1,10 @@
+.menu-container {
+  padding: 8px 16px 24px 16px;
+  background: #fff;
+  max-width: 768px;
+  margin: 16px auto;
+}
+
+.menu-container ul {
+  list-style: none;
+}
