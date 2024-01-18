@@ -2,6 +2,10 @@
   border-bottom: 1px solid #ccc;
 }
 
+.list-container:last-child {
+  border-bottom: none;
+}
+
 .list-container .item-container {
   display: flex;
   justify-content: space-between;

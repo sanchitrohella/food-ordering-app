@@ -8,3 +8,10 @@
 .menu-container ul {
   list-style: none;
 }
+
+@media screen and (max-width: 768px) {
+  .menu-container {
+    margin: 12px;
+    padding-bottom: 8px;
+  }
+}
